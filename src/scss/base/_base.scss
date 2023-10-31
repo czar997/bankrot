@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  margin: 50px auto 0;
+  max-width: 1440px;
+  padding: 0 135px;
+  @media (max-width: 1366px) {
+    padding: 0 85px;
+  }
+  @media (max-width: 1200px) {
+    padding: 0 25px;
+  }
+  @media (max-width: 1024px) {
+    padding: 0 16px;
+    margin: 20px auto 0;
+  }
+}

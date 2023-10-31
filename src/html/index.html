@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Банкротство</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="grid-container">
+      <section class="common-issues">
+        <h1 class="common-issues__title">Общие вопросы про суды и аресты</h1>
+        <section class="cta-questions">
+          <div class="cta-questions__item question-item bg-blue"
+            style="background-image: url(./img/business-woman-smartphone.png);">
+            <div class="question-item__info">
+              <p class="question-item__info_title">Задайте свой вопрос</p>
+              <p>Жалоба на постановление, действия (бездействие).</p>
+              <button class="question-item__btn" data-modal>Задать вопрос онлайн</button>
+            </div>
+          </div>
+          <div class="cta-questions__item question-item bg-gray"
+            style="background-image: url(./img/business-woman.png);">
+            <div class="question-item__info">
+              <p class="question-item__info_title">Необходима <br />онлайн-консультация?</p>
+              <p>Жалоба на постановление, действия (бездействие).</p>
+              <button class="question-item__btn" data-modal>Задать вопрос онлайн</button>
+            </div>
+          </div>
+        </section>
+        <div class="consulting-tags">
+          <h2>Консультации для вашего удобства разбиты по тегам:</h2>
+          <div class="consulting-tags__box">
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Арест имущества
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Арест карты
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Банкротство ИП
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Банкротство физлиц
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Банкротство ИП
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Банкротство физлиц
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Внесудебное банкротство
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Госслужащие
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Долги
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Арест имущества
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Арест карты
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Банкротство ИП
+            </a>
+            <a class="consulting-tags__box_item" href="#!" data-tag="consult-tag">
+              Банкротство физлиц
+            </a>
+            <button class="consulting-tags__box_btn">...</button>
+          </div>
+        </div>
+        <div class="common-issues__questions-box questions-box">
+          @@include('questions-box__item.html')
+          @@include('questions-box__item.html')
+          @@include('questions-box__item.html')
+          @@include('questions-box__item.html')
+          @@include('questions-box__item.html')
+          <div class="installment-banner">
+            <div class="installment-banner__inner bg-blue"
+              style="background-image: url(./img/business-woman-smartphone-zoom.png);">
+              <div class="installment-banner__info">
+                <p>Подберем вам надежную компанию по банкротству с рассрочкой от 5 000 руб./мес.</p>
+                <button class="installment-banner__btn" data-modal>Задать вопрос онлайн</button>
+              </div>
+            </div>
+          </div>
+          @@include('questions-box__item.html')
+          @@include('questions-box__item.html')
+          @@include('questions-box__item.html')
+        </div>
+        <div class="common-issues__pagination">
+          <button class="common-issues__pagination_btn-prev">
+            <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="svg-icon" d="M15 5.5H1M1 5.5L5.5 10M1 5.5L5.5 1" stroke="#1D1E1F" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="common-issues__pagination_pages">
+            <span data-page>1</span>
+            <span data-page>...</span>
+            <span data-page>4</span>
+            <span data-page>5</span>
+            <span data-page>6</span>
+            <span data-page>7</span>
+            <span data-page>8</span>
+            <span data-page>...</span>
+            <span data-page>42</span>
+          </div>
+          <button class="common-issues__pagination_btn-next">
+            <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="svg-icon" d="M15 5.5H1M1 5.5L5.5 10M1 5.5L5.5 1" stroke="#1D1E1F" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </section>
+      @@include('aside.html')
+    </div>
+    <section class="detailed-answers">
+      <div class="detailed-answers__title">
+        Подробные ответы в наших статьях
+      </div>
+      <div class="detailed-answers__box">
+        <article class="detailed-answers__box_item detailed-item">
+          <a class="detailed-item__link" href="#!">
+            <figure>
+              <img class="detailed-item__image" src="./img/man.png" alt="man">
+              <figcaption class="detailed-item__info">
+                <span class="detailed-item__info_date">06.12.2013</span>
+                <p class="detailed-item__info_about">«Быстрый займ – страшные последствия»: что будет, если не погасить
+                  кредит в МФО</p>
+                <div class="consulting-tags__box">
+                  <a class="consulting-tags__box_item" href="#!">
+                    Госслужащие
+                  </a>
+                  <a class=" consulting-tags__box_item" href="#!">
+                    Госслужащие
+                  </a>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+        <article class="detailed-answers__box_item detailed-item">
+          <a class="detailed-item__link" href="#!">
+            <figure>
+              <img class="detailed-item__image" src="./img/money.png" alt="money">
+              <figcaption class="detailed-item__info">
+                <span class="detailed-item__info_date">06.12.2013</span>
+                <p class="detailed-item__info_about">В каких случаях могут отобрать единственное жилье?</p>
+                <div class="consulting-tags__box">
+                  <a class="consulting-tags__box_item" href="#!">
+                    Госслужащие
+                  </a>
+                  <a class=" consulting-tags__box_item" href="#!">
+                    Госслужащие
+                  </a>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+        <article class="detailed-answers__box_item detailed-item">
+          <a class="detailed-item__link" href="#!">
+            <figure>
+              <img class="detailed-item__image" src="./img/guy.png" alt="guy">
+              <figcaption class="detailed-item__info">
+                <span class="detailed-item__info_date">06.12.2013</span>
+                <p class="detailed-item__info_about">«Быстрый займ – страшные последствия»: что будет, если не погасить
+                  кредит в МФО</p>
+                <div class="consulting-tags__box">
+                  <a class="consulting-tags__box_item" href="#!">
+                    Госслужащие
+                  </a>
+                  <a class=" consulting-tags__box_item" href="#!">
+                    Госслужащие
+                  </a>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
+        </article>
+      </div>
+      <button class="detailed-answers__btn">
+        Посмотреть все статьи
+      </button>
+    </section>
+  </div>
+  <div class="modal" id="modal-issue">
+    <div class="modal__window">
+      <div class="modal__window_header">
+        <div class="modal__window_header-title">Задайте свой вопрос</div>
+        <p>И в течение суток юрист ответит на ваш вопрос.</p>
+      </div>
+      <div class="modal__window_body">
+        <form class="modal__window_form" action="#">
+          <div class="modal__window_input">
+            <input type="text" id="name" data-att value=""><label for="name">Ваше Имя<span>*</span></label>
+          </div>
+          <div class="modal__window_input">
+            <input type="email" id="email" data-att value=""><label for="email">E-mail<span>*</span></label>
+          </div>
+          <div class="modal__window_input">
+            <textarea name="" id="issue" data-att></textarea>
+            <label for="issue">Напишите свой вопрос...<span>*</span></label>
+          </div>
+          <div class="modal__window_checkbox">
+            <input type="checkbox" value="" checked>
+            <p>Согласен с <a href="#!">условиями обработки персональных данных</a>.</p>
+          </div>
+          <button class="modal__window_btn" type="submit">Задать вопрос онлайн</button>
+        </form>
+      </div>
+      <button class="modal__close"><img src="./img/xcross.svg" alt="xcross"></button>
+    </div>
+  </div>
+  <script src=" ./js/index.bundle.js"></script>
+</body>
+
+</html>
